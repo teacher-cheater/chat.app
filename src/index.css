@@ -1,0 +1,93 @@
+/*---------------------*/
+
+@import url("./components/Main/Main.css");
+@import url("./components/Rooms/Room.css");
+@import url("./components/Button/Button.css");
+@import url("./components/Footer/Footer.css");
+@import url("./components/Registration/Registration.css");
+@import url("./components/Footer/Footer.css");
+@import url("./components/Form/Form.css");
+
+/*---------------------*/
+[class*="__container"] {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        /*padding: 40px 40px;*/
+    }
+}
+/*-----------------------------------*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+    background: #3f444a;
+}
+
+html {
+    /* по умолчанию */
+    font-size: 16px;
+}
+/*----------------------------------*/
+body {
+    line-height: 1;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+/* ------------------------------ */
+.main {
+    -webkit-box-flex: 1;
+    /*-ms-flex-positive: 1;*/
+    flex-grow: 1;
+}

@@ -1,0 +1,11 @@
+.main__block-registration {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.main__message {
+  display: inline-block;
+  color: #ffffff;
+}

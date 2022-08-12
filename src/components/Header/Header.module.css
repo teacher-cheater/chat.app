@@ -1,0 +1,28 @@
+.header {
+    color: #ffffff;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #6214ff -0.67%, #a659e8 100%);
+    height: 16px;
+    width: 100%;
+}
+
+.container {
+    max-width: 620px;
+    padding: 116px 0 0 0;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+}
+.text {
+    font-size: 21px;
+    line-height: 1.71;
+    margin-bottom: 156px;
+}

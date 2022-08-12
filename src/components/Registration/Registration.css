@@ -1,0 +1,59 @@
+.main__nickname {
+    display: flex;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.nickname__registration {
+    color: #ffffff;
+    display: flex;
+    flex: 1 1 50%;
+    gap: 27px;
+    align-items: center;
+}
+
+.nickname__input {
+    background: #34383d;
+    border: 1px solid #575e66;
+    border-radius: 4px;
+    padding: 12px 0 14px 16px;
+    width: 100%;
+    color: #ffffff;
+}
+
+/*.nickname__input:focus {
+    border: 2px solid #c593f0;
+    box-shadow: 1px 1px 2px 0 #c593f0;
+}
+.nickname__input:active {
+    border: 2px solid #c593f0;
+    box-shadow: 1px 1px 2px 0 #c593f0;
+}*/
+
+.main__password {
+    color: #ffffff;
+    display: flex;
+    flex: 1 1 50%;
+    gap: 27px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.password__text,
+.nickname__text {
+    min-width: 80px;
+}
+
+.password__input {
+    background: #34383d;
+    border: 1px solid #575e66;
+    border-radius: 4px;
+    padding: 12px 0 14px 16px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main__btn-join {
+    display: flex;
+    align-self: end;
+}

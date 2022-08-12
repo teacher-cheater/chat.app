@@ -1,0 +1,16 @@
+.footer {
+    padding: 35px 0 54px;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #ffffff;
+    text-align: center;
+}
+.footer__text a {
+    text-decoration-line: underline;
+    color: #c593f0;
+    cursor: pointer;
+}

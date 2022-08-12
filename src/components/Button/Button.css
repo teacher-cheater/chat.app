@@ -1,0 +1,19 @@
+.main__button {
+  background: #34383d;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 26px;
+  border: 2px solid #c593f0;
+  cursor: pointer;
+  min-width: 220px;
+  margin: 0px 24px 0px 0px;
+}
+
+.main__button:hover {
+  border: 2px solid #a659e8;
+  box-shadow: #a659e8;
+  transition: all 0.3s ease 0s;
+}
