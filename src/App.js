@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="wrapper">
-      <BrowserRouter >
+      <BrowserRouter basename="chat.app">
         <Routes>
           <Route
             path="/"
