@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/teacher-cheater.github.io/chat.app/static/css/main.2f138864.css",
+    "main.js": "/teacher-cheater.github.io/chat.app/static/js/main.043006ce.js",
+    "index.html": "/teacher-cheater.github.io/chat.app/index.html",
+    "main.2f138864.css.map": "/teacher-cheater.github.io/chat.app/static/css/main.2f138864.css.map",
+    "main.043006ce.js.map": "/teacher-cheater.github.io/chat.app/static/js/main.043006ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f138864.css",
+    "static/js/main.043006ce.js"
+  ]
+}
